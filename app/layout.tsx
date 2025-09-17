@@ -17,9 +17,9 @@ export const metadata: Metadata = {
 
 function Footer(){
     return(
-        <footer className="w-full h-10 flex justify-center items-center">
-            <Link href={"/"}>Instagram</Link>
-            <Link href="https://wa.me/905414408739" className="underline"></Link>
+        <footer className="w-full h-10 flex gap-5 bg-black justify-center items-center">
+            <Link href={"https://instagram.com"}>Instagram</Link>
+            <Link href="mailto:" className="underline">Mail</Link>
         </footer>
     )
 }
